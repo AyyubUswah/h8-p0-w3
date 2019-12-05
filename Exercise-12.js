@@ -12,6 +12,12 @@ Function tersebut akan mengembalikan true jika array dari parameter tersebut mer
         
         result = 'false';
         //return false
+
+        if ( result = 'false' ) {
+            
+          return result//return false
+          
+          }
         
        }
       else {
@@ -28,3 +34,5 @@ Function tersebut akan mengembalikan true jika array dari parameter tersebut mer
   console.log(tentukanDeretGeometri([2, 4, 6, 8])); // false
   console.log(tentukanDeretGeometri([2, 6, 18, 54])); // true
   console.log(tentukanDeretGeometri([1, 2, 3, 4, 7, 9])); // false
+
+  console.log(tentukanDeretGeometri([1, 3, 9, 8, 9, 8, 9, 8, 27, 81])) ;//false
